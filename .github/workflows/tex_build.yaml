@@ -10,10 +10,10 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: deps/vitae_revs/main.tex
-      - name: Upload PDF file
-        uses: actions/upload-artifact@v3
-        with:
-          name: PDF
-          path: deps/vitae_revs/main.pdf
+      #- name: Upload PDF file
+      # uses: actions/upload-artifact@v3
+      #  with:
+      #    name: PDF
+      #    path: deps/vitae_revs/main.pdf
         
             
