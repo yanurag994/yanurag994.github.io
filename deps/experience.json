@@ -1,0 +1,50 @@
+{
+  "University of Cincinnati": [
+    {
+      "title": "Graduate Assistant (Imaging and Security Remediaton) - DTS CEAS IT",
+      "location": "Cincinnati, Ohio",
+      "responsibilities": [
+        "Provided comprehensive desktop support to university faculty and staff, ensuring the seamless installation and configuration of security tools across diverse operating systems including Mac, Windows, and Linux.",
+        "Identified and resolved security vulnerabilities in computer hardware, software, and peripherals through systematic troubleshooting and meticulous testing of remediation solutions.",
+        "Implemented robust measures to eradicate spyware, adware, and viruses, safeguarding the integrity of university systems and data.",
+        "Maintained meticulous documentation for all hardware and software installations, configurations, and inventory, ensuring streamlined operations and compliance.",
+        "Managed user accounts within Active Directory on Windows Server, overseeing account creation, configuration, and modification to uphold security protocols and facilitate user access."
+      ]
+    },
+    {
+      "title": "Desk Assistant - University Housing",
+      "location": "Cincinnati, Ohio",
+      "responsibilities": [
+        "Manage interactions with parents, resident advisors, and serve as a contact point for staff.",
+        "Inventory management for available resources with allocation to students.",
+        "Overlook student check-in/check-out procedures and assist with lockouts",
+        "Report security violations and respond to emergencies.",
+        "Document information accurately, attend meetings, and perform additional duties as assigned.",
+        "Foster an inclusive community in the residence halls."
+      ]
+    }
+  ],
+  "Accenture": [
+    {
+      "title": "Application Development Analyst / Software Engineer",
+      "location": "Noida, Delhi",
+      "responsibilities": [
+        "Manage interactions with parents, resident advisors, and others as first point of contact.",
+        "Inventory management for available resources with allocation to students.",
+        "Overlook student check-in/check-out procedures."
+      ]
+    },
+    {
+      "title": "Application Development Associate / Associate Software Engineer",
+      "location": "Bengaluru, Karnataka",
+      "achievements": [
+        "Center of Excellence Award - May 2021"
+      ],
+      "responsibilities": [
+        "Cross Trained on Azure Cloud Fundamentals",
+        "Cross Trained on SAP Cloud Integration Platform, SAP SDK",
+        "Trained on C#, ASP.NET, MSSQL"
+      ]
+    }
+  ]
+}
