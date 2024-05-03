@@ -1,8 +1,10 @@
 {
   "University of Cincinnati": [
     {
-      "title": "Graduate Assistant (Imaging and Security Remediaton) - DTS CEAS IT",
-      "location": "Cincinnati, Ohio",
+      "title": "GA (Imaging and Security Remediaton) - DTS CEAS IT",
+      "duration": "March 2023 - April 2024",
+      "location": "Cincinnati, Ohio, USA",
+      "note": "Part Time",
       "responsibilities": [
         "Provided comprehensive desktop support to university faculty and staff, ensuring the seamless installation and configuration of security tools across diverse operating systems including Mac, Windows, and Linux.",
         "Identified and resolved security vulnerabilities in computer hardware, software, and peripherals through systematic troubleshooting and meticulous testing of remediation solutions.",
@@ -13,11 +15,13 @@
     },
     {
       "title": "Desk Assistant - University Housing",
-      "location": "Cincinnati, Ohio",
+      "duration": "January 2023 - March 2023",
+      "location": "Cincinnati, Ohio, USA",
+      "note": "Part Time",
       "responsibilities": [
         "Manage interactions with parents, resident advisors, and serve as a contact point for staff.",
         "Inventory management for available resources with allocation to students.",
-        "Overlook student check-in/check-out procedures and assist with lockouts",
+        "Overlook student check-in/check-out procedures and assist with lockouts.",
         "Report security violations and respond to emergencies.",
         "Document information accurately, attend meetings, and perform additional duties as assigned.",
         "Foster an inclusive community in the residence halls."
@@ -26,24 +30,45 @@
   ],
   "Accenture": [
     {
-      "title": "Application Development Analyst / Software Engineer",
-      "location": "Noida, Delhi",
+      "title": "Software Engineer",
+      "duration": "December 2021 - July 2022",
+      "location": "Noida, Delhi, IN",
       "responsibilities": [
-        "Manage interactions with parents, resident advisors, and others as first point of contact.",
-        "Inventory management for available resources with allocation to students.",
-        "Overlook student check-in/check-out procedures."
+        "Conducted KT sessions for new team members, ensuring smooth onboarding.",
+        "Maintained documentation and created SOPs to streamline site onboarding for SAP CDC.",
+        "Created and deployed a Parallel Python Application on AWS EKS for system-wide user unsubscription.",
+        "Automated template-based site onboarding to SAP CDC using Python scripts.",
+        "Cross-trained on Azure Data Cloud, expanding cloud expertise.",
+        "ETL Dataflows for integrating SAP CDC with Adobe Campaign for user profile synchronization."
       ]
     },
     {
-      "title": "Application Development Associate / Associate Software Engineer",
-      "location": "Bengaluru, Karnataka",
+      "title": "Associate Software Engineer",
+      "duration": "November 2020 - November 2021",
+      "location": "Bengaluru, Karnataka, IN",
       "achievements": [
         "Center of Excellence Award - May 2021"
       ],
       "responsibilities": [
-        "Cross Trained on Azure Cloud Fundamentals",
-        "Cross Trained on SAP Cloud Integration Platform, SAP SDK",
-        "Trained on C#, ASP.NET, MSSQL"
+        "Crafted tailored Postman API calls to optimize ServiceNow ticket processes, reducing turnaround time.",
+        "Proactively identified and resolved production issues, developing scripts for continuous developmen.",
+        "Automated SAP Customer Data Cloud onboarding, enhancing efficiency and minimizing manual tasks.",
+        "Cross Trained on Azure Cloud Fundamentals.",
+        "Integrated and developed SAP solutions using SAP Cloud Integration Platform and SAP SDK.",
+        "Developed custom solutions in C#, ASP.NET, and MSSQL, meeting diverse business needs."
+      ]
+    }
+  ],
+  "Bharat Electronics Limited": [
+    {
+      "title": "RF module and Antenna Teste",
+      "duration": "June 2019 - July 2019",
+      "location": "Ghaaziabad, IN",
+      "note": "Internship",
+      "responsibilities": [
+        "Tested LLTR(Low Level tranport radar) amplifier stages using LabVIEW.",
+        "Developed understanding of various antenna types.",
+        "Developed understanding of SRE Radar and Power Divider Networks."
       ]
     }
   ]
