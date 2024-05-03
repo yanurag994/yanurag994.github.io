@@ -1,0 +1,21 @@
+[
+  {
+    "link": "https://github.com/yanurag994/yanurag994.github.io",
+    "title": "Personal Website",
+    "description": "Custom implementation for a personal website, leveraging client-side scripting from HTML templates using JavaScript. It supports LaTeX and JSON for managing diverse data.",
+    "tools": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "link": "https://github.com/yanurag994/Basic-Compiler-Design",
+    "title": "Compiler",
+    "description": "Compiler for a toy language. It features a custom scanner/parser implemented from scratch in C++, along with semantic analysis. The project utilizes LLVM for in-memory translation during code generation and runtime execution.",
+    "tools": [
+      "C++",
+      "LLVM"
+    ]
+  }
+]

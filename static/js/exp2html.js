@@ -1,13 +1,8 @@
 // Function to read JSON file from server
 function readJSONFile(path, callback) {
     fetch(path)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`Network response was not ok`);
-            }
-            return response.json();
-        })
-        .then(data => callback(data))
+        .then(response => response.json()) // Parse response as JSON
+        .then(response => callback(response))
         .catch(error => console.error(`Error fetching JSON file:`, error));
 }
 
@@ -18,7 +13,7 @@ function generateHTML(data) {
         html += `<h3>${organization}</h3>`;
         data[organization].forEach(role => {
             html += `<h5>${role.title} : ${role.location}`;
-            html +=  role.note ? `<span style="margin-left: 20px; color:black; font-size:12px">(${role.note})</span>` : ``;
+            html += role.note ? `<span style="margin-left: 20px; color:black; font-size:12px">(${role.note})</span>` : ``;
             html += `<span style="float:right;">${role.duration}</span>`;
             html += `</h5>`;
             if (role.achievements) {
@@ -37,11 +32,9 @@ function generateHTML(data) {
             }
         });
     }
-    return html;
+    document.getElementById('experience').innerHTML = html;
 }
 
-readJSONFile(`deps/experience.json`, function (data) {
-    const html = generateHTML(data);
-    // Do something with the generated HTML, like appending it to the DOM
-    document.getElementById("Experience").innerHTML = html;
+document.addEventListener('DOMContentLoaded', function () {
+    readJSONFile(document.getElementById('experience').getAttribute('data-filename'), generateHTML);
 });

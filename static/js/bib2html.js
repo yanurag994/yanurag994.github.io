@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var bibDiv = document.getElementById('bibtex_display');
 
     // Example path to your .bib file. You may replace it with the actual path.
-    var bibFilePath = "deps/publications.bib";
+    var bibFilePath = bibDiv.getAttribute('data-filename');
 
     // Read the .bib file and parse its content
     readBibFile(bibFilePath, function (contents) {

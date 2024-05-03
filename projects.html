@@ -17,6 +17,7 @@
     $(document).ready(function () { $(".navigation").load("static/templates/nav.html"); });
     $(document).ready(function () { $(".footer").load("static/templates/footer.html"); });
   </script>
+  <script src="static/js/proj2html.js"></script>
 </head>
 
 <body>
@@ -27,9 +28,13 @@
     <header>
       <h1>Projects</h1>
     </header>
+
     <main>
-      <p>Will be updated in next build... Please explore other sections.</p>
+      <div class="card-columns m-3 mt-5" style="column-count: 4;">
+        <div id="projects-container" data-filename="deps/projects.json"></div>
+      </div>
     </main>
+
 
     <div class="footer"></div>
   </div>
