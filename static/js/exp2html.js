@@ -14,8 +14,8 @@ function generateHTML(data) {
         data[organization].forEach(role => {
             html += `<h5 style="display: flex; justify-content: space-between; align-items: center;">`;
             html += `<span>${role.title} : ${role.location}</span>`;
-            html += role.note ? `<span style="margin-left: 10px; font-size: 12px;">(${role.note})</span>` : ``;
-            html += `<span style="font-size: 15px;">${role.duration}</span>`;
+            html += role.note ? `<span style="font-size: 15px; margin-left: 10px; margin-right: auto;">(${role.note})</span>` : ``;
+            html += `<span style="font-size: 15px; text-align:right;">${role.duration}</span>`;
             html += `</h5>`;
             if (role.achievements) {
                 html += "<ul>";
