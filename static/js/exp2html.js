@@ -12,9 +12,10 @@ function generateHTML(data) {
     for (const organization in data) {
         html += `<h3>${organization}</h3>`;
         data[organization].forEach(role => {
-            html += `<h5>${role.title} : ${role.location}`;
-            html += role.note ? `<span style="margin-left: 20px; color:black; font-size:12px">(${role.note})</span>` : ``;
-            html += `<span style="float:right;">${role.duration}</span>`;
+            html += `<h5 style="display: flex; justify-content: space-between; align-items: center;">`;
+            html += `<span>${role.title} : ${role.location}</span>`;
+            html += role.note ? `<span style="margin-left: 10px; font-size: 12px;">(${role.note})</span>` : ``;
+            html += `<span style="font-size: 15px;">${role.duration}</span>`;
             html += `</h5>`;
             if (role.achievements) {
                 html += "<ul>";

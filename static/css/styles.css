@@ -53,6 +53,21 @@ footer {
     font-weight: bold;
 }
 
+.award-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .award-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
 .achievement {
     list-style-type: none;
     font-size: 18px;

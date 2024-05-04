@@ -18,6 +18,25 @@
     $(document).ready(function () { $(".footer").load("static/templates/footer.html"); });
   </script>
   <script src="static/js/proj2html.js"></script>
+  <style>
+    .card-columns {
+      column-count: 4;
+    }
+
+    @media (max-width: 768px) {
+      .card-columns {
+        column-count: 2;
+        /* Change to 2 columns for screens smaller than 768px */
+      }
+    }
+
+    @media (max-width: 576px) {
+      .card-columns {
+        column-count: 1;
+        /* Change to 1 column for screens smaller than 576px */
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -30,7 +49,7 @@
     </header>
 
     <main>
-      <div class="card-columns m-3 mt-5" style="column-count: 4;">
+      <div class="card-columns m-3 mt-5">
         <div id="projects-container" data-filename="deps/projects.json"></div>
       </div>
     </main>
