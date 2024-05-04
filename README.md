@@ -21,6 +21,4 @@ Welcome to my personal website! Here, you'll find an in-depth profile that offer
 
 [ ] Update certifications section
 
-[ ] Update Acheivements on the Education page
-
 [ ] Maintain deps for continous builds
